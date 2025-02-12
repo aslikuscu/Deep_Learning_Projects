@@ -2,31 +2,19 @@ Bu projeyi yaparak **Derin Öğrenme (Deep Learning)** konusunda temel ve uygula
 
 ---
 
-### **📌 Derin Öğrenme ve Sinir Ağları ile İlgili Öğreneceklerin**  
+### **MNIST Nedir?** 📚
 
-#### **1️⃣ MNIST Veri Seti ve Veri Ön İşleme**  
-- **MNIST veri seti nedir?** → El yazısı rakamlardan oluşan bir veri setidir (0-9 arasındaki rakamlar).  
-- **Görselleri nasıl işleriz?** → Siyah-beyaz 28x28 boyutundaki resimleri modele uygun hale getiririz.  
-- **Veri normalizasyonu nedir?** → Piksel değerlerini (0-255) 0 ile 1 arasına getirerek modelin daha iyi öğrenmesini sağlarız.  
+**MNIST (Modified National Institute of Standards and Technology)**, el yazısı rakamlarını içeren popüler bir veri setidir. Yapay zeka ve makine öğrenmesi alanında özellikle **görsel tanıma (image recognition)** çalışmaları için kullanılır.
 
-#### **2️⃣ Yapay Sinir Ağları (Artificial Neural Networks - ANN)**  
-- **Sinir ağları nasıl çalışır?** → İnsan beyninden esinlenen bir modeldir, giriş katmanı, gizli katmanlar ve çıkış katmanlarından oluşur.  
-- **Nöronlar ve ağırlıklar (weights & biases)** nasıl öğrenir?  
-- **Aktivasyon fonksiyonları nelerdir?** → Sigmoid, ReLU, Softmax gibi fonksiyonlar, modelin nasıl karar verdiğini belirler.  
+---
 
-#### **3️⃣ Model Eğitme ve Optimizasyon**  
-- **Veriyi modele nasıl öğretiriz?** → Eğitim (training) ve test (validation) verileri ile modeli eğitiyoruz.  
-- **Kayıp (Loss) ve optimizasyon nedir?** → Modelin hatalarını ölçer ve düzeltmek için optimizasyon algoritmaları (örneğin, Adam, SGD) kullanırız.  
-- **Epoch ve Batch Size nedir?** → Modeli kaç kez eğiteceğimizi ve her seferinde kaç veri kullanacağımızı belirleriz.  
 
-#### **4️⃣ Modelin Performansını Ölçme ve Değerlendirme**  
-- **Doğruluk (Accuracy) nasıl hesaplanır?**  
-- **Karmaşıklık Matrisi (Confusion Matrix) ile doğru-yanlış tahminleri analiz etmek**  
-- **Overfitting nedir ve nasıl önlenir?** → Modelin eğitime aşırı uyum sağlamaması için önlemler  
+### **Özet** 📝
+✅ **MNIST, el yazısı rakamları içeren bir veri setidir.**  
+✅ **Makine öğrenmesi ve yapay zeka modellerinin eğitiminde yaygın olarak kullanılır.**  
+✅ **28x28 piksellik 0-9 arası rakamları içerir.**  
+✅ **Sinir ağları ile rakamları otomatik olarak tanımayı öğrenmek için harika bir başlangıç noktasıdır!**  
 
-#### **5️⃣ Sonuçları Görselleştirme**  
-- Modelin tahmin ettiği rakamları grafik olarak gösterme  
-- Yanlış tahmin edilen rakamları analiz etme  
 
 ---
 
@@ -37,11 +25,10 @@ Bu projeyi yaparak **Derin Öğrenme (Deep Learning)** konusunda temel ve uygula
 ✅ Verileri işler, modeli eğitir ve sonuçları analiz edersin.  
 ✅ Model performansını artırmayı öğrenerek ileri seviyeye geçebilirsin.  
 
-Bu projeden sonra, **konvolüsyonel sinir ağları (CNN), transfer öğrenme ve farklı veri setleriyle çalışma** gibi daha ileri seviyelere geçebilirsin. 🚀  
 
 ### **📌 Projenin Sonucu Ne Olacak?**  
 
-Bu projeyi tamamladığında **el yazısı rakamları tanıyabilen bir yapay sinir ağı modeli** elde etmiş olacaksın. **MNIST veri setini** kullanarak eğittiğimiz model, **0-9 arasındaki rakamları otomatik olarak tanıyabilecek**.  
+Bu projeyi tamamladığında **el yazısı rakamları tanıyabilen bir yapay sinir ağı modeli** elde etmiş olacaksın. **MNIST veri setini** kullanarak eğittiğimiz model, **0-9 arasındaki rakamları otomatik olarak tanıyabilecek**.   🎯  
 
 ---
 
@@ -60,8 +47,6 @@ Bu projeyi tamamladığında **el yazısı rakamları tanıyabilen bir yapay sin
 - Daha karmaşık bir **Konvolüsyonel Sinir Ağı (CNN)** modeli ile doğruluğu artırabiliriz.  
 - Kendi el yazınla test edebilmek için modeli yeni verilerle eğitebiliriz.  
 - Mobil veya web uygulaması olarak modeli deploy edebiliriz.  
-
-Sonuç olarak, **"El yazısı rakamları tanıyan bir yapay zeka modeli"** elde edeceğiz! 🎯  
 
 Bundan sonra modeli daha da geliştirmek veya yeni projelere geçmek tamamen sana kalmış! 🚀 **Bir sonraki adımın ne olmasını istersin?** 😊
 
