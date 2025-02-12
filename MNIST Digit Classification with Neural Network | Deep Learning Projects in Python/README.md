@@ -112,4 +112,3 @@ Eğer daha ileri gitmek istiyorsan:
 📱 **Kendi el yazını tanıtmak için bir mobil uygulama veya web arayüzü yapabilirsin.**  
 📊 **Veriyi daha detaylı analiz ederek modelin neden hata yaptığını inceleyebilirsin.**  
 
-**Bu proje, yapay zeka ve derin öğrenme dünyasına giriş yapmak için harika bir başlangıç!** 🚀
